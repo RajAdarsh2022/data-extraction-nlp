@@ -23,7 +23,7 @@ import urllib.request
 # In[2]:
 
 
-df_input = pd.read_csv(r"C:\Users\adars\Desktop\blackCoffer\Input.xlsx - Sheet1.csv", index_col=0)
+df_input = pd.read_csv(r"D:\Projects\data-extraction-nlp\Input.xlsx - Sheet1.csv", index_col=0)
 df_input
 
 
@@ -256,7 +256,7 @@ cleanedWords
 
 #Trying to create the stopWord list
 import os
-directory = r"C:\Users\adars\Desktop\blackCoffer\stopWords"
+directory = r"D:\Projects\data-extraction-nlp\stopWords"
 stopWordsFile = os.listdir(directory)
 print(stopWordsFile)
 
@@ -286,7 +286,7 @@ stopWordsList
 
 
 #Creating the positive words list
-with open(r"C:\Users\adars\Desktop\blackCoffer\masterDictionary\positive-words.txt", 'r') as f_object:
+with open(r"D:\Projects\data-extraction-nlp\masterDictionary\positive-words.txt", 'r') as f_object:
     positiveWords = f_object.readlines()
 
 for i in range(len(positiveWords)):
@@ -299,7 +299,7 @@ print(positiveWords)
 
 
 #Creating the negative words list
-with open(r"C:\Users\adars\Desktop\blackCoffer\masterDictionary\negative-words.txt", 'r') as f_object:
+with open(r"D:\Projects\data-extraction-nlp\masterDictionary\negative-words.txt", 'r') as f_object:
     negativeWords = f_object.readlines()
 
 for i in range(len(negativeWords)):
@@ -459,7 +459,7 @@ df
 # In[42]:
 
 
-df.to_excel(r'C:\Users\adars\Desktop\blackCoffer\Output_Data_Strucutre.xlsx')
+df.to_excel(r'D:\Projects\data-extraction-nlp\Output_Data_Strucutre.xlsx')
 
 
 # In[43]:
