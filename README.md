@@ -16,7 +16,7 @@ Data preprocessing steps were carried out, including the removal of stopwords. S
 
 ## Screenshots
 
-
+![Table](https://raw.githubusercontent.com/RajAdarsh2022/data-extraction-nlp/main/assets/screenshots/data-extraction-nlp_ss.png)
 
 
 
